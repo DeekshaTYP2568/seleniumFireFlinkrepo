@@ -21,6 +21,7 @@ public class ToReadDataFromExcel {
 	    System.out.println(Url);
 	    WebDriver driver = new ChromeDriver();
 	    driver.get(Url);
+	    System.out.println(Url);
 	    
 	   /*LocalDateTime date = workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();
 	   System.out.println(date);
