@@ -22,7 +22,7 @@ public class ToReadDataFromExcel {
 	    WebDriver driver = new ChromeDriver();
 	    driver.get(Url);
 	    
-	   LocalDateTime date = workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();
+	   /*LocalDateTime date = workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();
 	   System.out.println(date);
 	   Month month = date.getMonth();
 	   int day = date.getDayOfMonth();
@@ -32,7 +32,7 @@ public class ToReadDataFromExcel {
 	   System.out.println(year);
 	   int number = (int) workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();
 	   System.out.println(number);
-	   boolean status =  workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();
+	   boolean status =  workbook.getSheet("Sheet1").getRow(1).getCell(0).getStringCellValue();*/
 	   
 	   
 	    
